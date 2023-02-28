@@ -1,0 +1,136 @@
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.chat-div {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background: #131a2b;
+  color: white;
+  overflow-y: scroll;
+  padding-top: 10px;
+}
+.message-div {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  color: white;
+  margin-left: 10px;
+  width: 100%;
+  min-height: 100vh;
+}
+.per-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #111a2b;
+  padding: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.177);
+}
+.person {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.text-person {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.per-name {
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+.per-status {
+  font-size: 12px;
+  font-weight: 600;
+  color: #494e58;
+}
+.messages-box {
+  background: #131a2b;
+  min-height: 90vh;
+  overflow-y: scroll;
+}
+.msg-cont {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 10px 0px;
+  margin: auto;
+  width: 90%;
+  min-height: 90vh;
+  overflow-y: scroll;
+}
+.sender-msg {
+  background: linear-gradient(to left, #be5869, #403a3e);
+  font-size: 14px;
+  padding: 6px;
+  margin: 5px;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  width: fit-content;
+
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.489);
+}
+.text-msg {
+  background: linear-gradient(to left, #dd2476, #ff512f);
+  font-size: 13px;
+  padding: 6px;
+  margin: 5px;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.489);
+}
+.time-span {
+  font-size: 7px;
+  margin-left: 10px;
+  color: #e7f0ff97;
+  font-weight: 900;
+  text-shadow: none;
+  margin-top: 20px;
+}
+.user-span {
+  font-size: 10px;
+  margin-right: 5px;
+  color: rgb(198, 195, 195);
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.489);
+}
+.send-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  background: #111a2b;
+  border-radius: 10px;
+}
+.input-send {
+  width: 90%;
+  background: transparent;
+  height: 40px;
+  margin: 3px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  border-bottom: 1px solid #494e58;
+}
+.emoji {
+  margin: 5px;
+}
+.end-text {
+  color: rgba(255, 255, 255, 0.186);
+}

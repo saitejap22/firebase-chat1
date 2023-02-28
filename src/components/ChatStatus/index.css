@@ -1,0 +1,44 @@
+.chat-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #111a2b;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: aliceblue;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.23);
+}
+.users-list {
+  font-size: 25px;
+  width: 250px;
+  cursor: pointer;
+}
+.user-name {
+  background: linear-gradient(to left, #dd2476, #ff512f);
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+}
+.nav-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.online {
+  color: green;
+  margin-left: 3px;
+}
+.offline {
+  color: rgb(225, 45, 45);
+  margin-left: 3px;
+}

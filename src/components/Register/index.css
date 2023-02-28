@@ -1,0 +1,71 @@
+.reg-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #dd2476, #ff512f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.344);
+}
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.form-reg {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  width: 100%;
+}
+.input-reg {
+  margin: 5px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.523);
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  color: rgb(255, 255, 255);
+  width: 90%;
+}
+.logo {
+  margin: 2px;
+}
+.title {
+  margin: 2px;
+  text-decoration-line: underline;
+}
+.regg-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #6195a858;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 8px 15px 8px 15px;
+  font-size: 18px;
+  border-radius: 6px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.344);
+}
+.reg-note {
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.344);
+  color: white;
+}
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
